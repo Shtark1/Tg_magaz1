@@ -22,6 +22,6 @@ def main():
 
 
 if __name__ == '__main__':
-    subprocess.Popen(["python", "start_all_bot.py"])
+    subprocess.Popen(["/home/str/Alica/.venv/bin/python", "/home/str/Alica/start_all_bot.py"])
 
     main()

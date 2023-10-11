@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Bot
+After=network.target
+
+[Service]
+User=str
+Group=str
+
+WorkingDirectory=/home/str/Alica/
+Environment="PYTHONPATH=/home/str/Alica/"
+ExecStart=/home/str/Alica/.venv/bin/python /home/str/Alica/bot_main.py
+
+[Install]
+WantedBy=multi-user.target
